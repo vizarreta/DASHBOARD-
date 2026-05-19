@@ -19,18 +19,15 @@ streamlit run app.py
 
 La forma más simple para entregar un enlace revisable es Streamlit Community Cloud:
 
-1. Crea un repositorio en GitHub.
-2. Sube estos archivos al repositorio:
-   - `app.py`
-   - `requirements.txt`
-   - `.streamlit/config.toml`
-   - `data/Sleep_health_dataset_es.csv`
-3. Entra a Streamlit Community Cloud y crea una app nueva desde ese repositorio.
-4. Selecciona `app.py` como archivo principal.
-5. Pulsa Deploy.
-6. Copia el enlace público y envíalo a tu profesora.
+1. Entra a Streamlit Community Cloud con tu cuenta de GitHub.
+2. Crea una app nueva desde este repositorio:
+   - Repository: `vizarreta/DASHBOARD-`
+   - Branch: `main`
+   - Main file path: `app.py`
+3. Pulsa Deploy.
+4. Copia el enlace público y envíalo a tu profesora.
 
-Si la app queda privada, agrega el correo de tu profesora en la sección de permisos o comparte el repositorio con acceso de lectura.
+Si la app queda privada, agrega el correo de tu profesora como viewer en Streamlit Community Cloud o comparte el repositorio con acceso de lectura.
 
 ## Estructura esperada
 
