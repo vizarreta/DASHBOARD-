@@ -10,8 +10,8 @@ import umap
 app = Flask(__name__)
 
 BASE_DIR = Path(__file__).resolve().parent
-VECTOR_PATH = BASE_DIR / "vector_caracteristicas_sleep.csv"
-DETALLES_PATH = BASE_DIR / "Sleep_health_dataset_es_transformado.csv"
+VECTOR_PATH = BASE_DIR / "data" / "vector_caracteristicas_sleep.csv"
+DETALLES_PATH = BASE_DIR / "data" / "Sleep_health_dataset_es_transformado.csv"
 
 COLUMNAS_EXCLUIR = {"id_persona", "trastorno_sueno"}
 COLUMNAS_DETALLE = [

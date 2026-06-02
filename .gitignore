@@ -3,15 +3,17 @@
 venv/
 env/
 
-# Generated datasets
-Sleep_health_dataset_es.csv
-Sleep_health_dataset_es_transformado.csv
-vector_caracteristicas_sleep.csv
-embedding_sleep_2d.csv
-tabla_calidad_datos.csv
-resumen_mineria_datos_sleep.json
+# Generated dataset files (keep original .csv)
+dashboarfinal/data/Sleep_health_dataset_es.csv
+dashboarfinal/data/Sleep_health_dataset_es_transformado.csv
+dashboarfinal/data/vector_caracteristicas_sleep.csv
+dashboarfinal/data/embedding_sleep_2d.csv
+dashboarfinal/data/tabla_calidad_datos.csv
 
-# Generated plots
+# Generated outputs
+dashboarfinal/outputs/
+
+# Generated plots (anywhere)
 *.png
 
 # Python cache
@@ -29,3 +31,7 @@ Thumbs.db
 
 # Old directories
 dashboard parcial/
+
+# Misc
+*.pdf
+*.zip

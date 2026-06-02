@@ -6,15 +6,18 @@ import pandas as pd
 
 
 BASE_DIR = Path(__file__).resolve().parent
-ORIGINAL = BASE_DIR / "Sleep_health_and_lifestyle_dataset.csv"
-DATASET_ES = BASE_DIR / "Sleep_health_dataset_es.csv"
-DATASET_TRANSFORMADO = BASE_DIR / "Sleep_health_dataset_es_transformado.csv"
-TABLA_CALIDAD = BASE_DIR / "tabla_calidad_datos.csv"
-VECTOR_CARACTERISTICAS = BASE_DIR / "vector_caracteristicas_sleep.csv"
-EMBEDDING_CSV = BASE_DIR / "embedding_sleep_2d.csv"
-RESUMEN_JSON = BASE_DIR / "resumen_mineria_datos_sleep.json"
-BOXPLOT_PNG = BASE_DIR / "boxplot_anomalias_sleep.png"
-EMBEDDING_PNG = BASE_DIR / "embedding_sleep_2d.png"
+DATA_DIR = BASE_DIR / "data"
+OUTPUTS_DIR = BASE_DIR / "outputs"
+
+ORIGINAL = DATA_DIR / "Sleep_health_and_lifestyle_dataset.csv"
+DATASET_ES = DATA_DIR / "Sleep_health_dataset_es.csv"
+DATASET_TRANSFORMADO = DATA_DIR / "Sleep_health_dataset_es_transformado.csv"
+TABLA_CALIDAD = DATA_DIR / "tabla_calidad_datos.csv"
+VECTOR_CARACTERISTICAS = DATA_DIR / "vector_caracteristicas_sleep.csv"
+EMBEDDING_CSV = DATA_DIR / "embedding_sleep_2d.csv"
+RESUMEN_JSON = OUTPUTS_DIR / "resumen_mineria_datos_sleep.json"
+BOXPLOT_PNG = OUTPUTS_DIR / "boxplot_anomalias_sleep.png"
+EMBEDDING_PNG = OUTPUTS_DIR / "embedding_sleep_2d.png"
 
 
 COLUMNAS_ES = {
