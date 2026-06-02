@@ -1,5 +1,31 @@
-__pycache__/
-*.pyc
-streamlit-*.log
+# Virtual environment
 .venv/
 venv/
+env/
+
+# Generated datasets
+Sleep_health_dataset_es.csv
+Sleep_health_dataset_es_transformado.csv
+vector_caracteristicas_sleep.csv
+embedding_sleep_2d.csv
+tabla_calidad_datos.csv
+resumen_mineria_datos_sleep.json
+
+# Generated plots
+*.png
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Old directories
+dashboard parcial/
