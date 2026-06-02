@@ -1,5 +1,37 @@
-__pycache__/
-*.pyc
-streamlit-*.log
+# Virtual environment
 .venv/
 venv/
+env/
+
+# Generated dataset files (keep original .csv)
+dashboarfinal/data/Sleep_health_dataset_es.csv
+dashboarfinal/data/Sleep_health_dataset_es_transformado.csv
+dashboarfinal/data/vector_caracteristicas_sleep.csv
+dashboarfinal/data/embedding_sleep_2d.csv
+dashboarfinal/data/tabla_calidad_datos.csv
+
+# Generated outputs
+dashboarfinal/outputs/
+
+# Generated plots (anywhere)
+*.png
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Old directories
+dashboard parcial/
+
+# Misc
+*.pdf
+*.zip
